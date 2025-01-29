@@ -5,32 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce7ad05-ec5e-4e6e-a314-9a57d6e5fde4" name="Changes" comment="Last working version">
-      <change afterPath="$PROJECT_DIR$/.idea/TimeSeriesDistance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/approach1_multi_hot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/approach2_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/approach3_markov.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/approach4_scores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/approach5_simple_euclidean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/compute_distance_matrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distance_calculation/pick_n_representative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/approach_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/choose_n_representatives.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/gather_mat_files_multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/gather_mat_files_single.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/load_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/load_postprocessed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/load_scores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/data_loading/unify_lengths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/input_mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/pick_folders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/pick_mat_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAnalysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_cores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/gather_mat_files_multiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/gather_mat_files_single.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/load_intervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/load_postprocessed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/load_scores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_loading/unify_lengths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructureupdatetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/approach1_multi_hot.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/approach1_multi_hot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/approach2_intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/approach2_intervals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/approach3_markov.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/approach3_markov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/approach4_scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/approach4_scores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/approach5_simple_euclidean.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/approach5_simple_euclidean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/compute_distance_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/compute_distance_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance_calculation/pick_n_representative.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance_calculation/pick_n_representative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/approach_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/approach_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/choose_n_representatives.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/choose_n_representatives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/input_mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/input_mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/pick_folders.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/pick_folders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/pick_mat_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/pick_mat_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +42,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -61,6 +65,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.check_cores.executor": "Run",
+    "Python.datastructureupdatetest.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -70,9 +76,88 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.jupyter.core.jupyter.connections.configuration.JupyterServerConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.datastructureupdatetest">
+    <configuration name="check_cores" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TimeSeriesDistance" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_cores.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datastructureupdatetest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TimeSeriesDistance" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datastructureupdatetest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TimeSeriesDistance" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.datastructureupdatetest" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.check_cores" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737916848497</updated>
       <workItem from="1737916849808" duration="2620000" />
-      <workItem from="1737970564485" duration="5805000" />
+      <workItem from="1737970564485" duration="54908000" />
     </task>
     <task id="LOCAL-00001" summary="Last working version">
       <option name="closed" value="true" />
@@ -100,17 +185,38 @@
       <option name="project" value="LOCAL" />
       <updated>1737919945297</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Last working version">
+      <option name="closed" value="true" />
+      <created>1737981073619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737981073619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Last working version" />
     <option name="LAST_COMMIT_MESSAGE" value="Last working version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TimeSeriesDistance$main.coverage" NAME="main Coverage Results" MODIFIED="1737975767211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TimeSeriesDistance$check_cores.coverage" NAME="check_cores Coverage Results" MODIFIED="1738063519832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TimeSeriesDistance$datastructureupdatetest.coverage" NAME="datastructureupdatetest Coverage Results" MODIFIED="1738146004395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TimeSeriesDistance$main.coverage" NAME="main Coverage Results" MODIFIED="1738090320008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
