@@ -172,9 +172,5 @@ Make sure you have all required dependencies installed before running the projec
 
 pip install numpy pandas scipy sklearn matplotlib seaborn fastdtw hmmlearn
 Then, execute:
-
-bash
-Copy
-Edit
-python main.py
-Follow the interface prompts to process behavioral data and analyze results.
+"python main.py"
+'Follow the interface prompts to process behavioral data and analyze results.'
