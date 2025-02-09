@@ -1,4 +1,5 @@
-### Cell 1: Import Libraries
+# Possible dta structure update
+#1: Import Libraries
 import os
 import numpy as np
 import pandas as pd
@@ -7,7 +8,7 @@ from data_loading.gather_mat_files_multiple import gather_mat_files_multiple_con
 from data_loading.load_postprocessed import load_postprocessed_data
 
 
-### Cell 2: Data Loading Function
+#2: Data Loading Function
 def load_behavior_data(base_folder):
     """
     Load postprocessed behavior data and extract behavior names from filenames.
@@ -47,7 +48,7 @@ def load_behavior_data(base_folder):
     return all_flies_post, post_index_map, condition_names, behavior_names_per_condition
 
 
-### Cell 3: Compute Behavior Sums
+#3: Compute Behavior Sums
 base_folder = r"D:\\behavior_ethogram_project_Ilya"
 all_flies_post, post_index_map, condition_names, behavior_names_per_condition = load_behavior_data(base_folder)
 

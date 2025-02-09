@@ -7,6 +7,7 @@ from .approach4_scores import approach4_scores_distance
 from .approach5_simple_euclidean import approach5_simple_euclidean_distance
 from .compute_distance_matrix import compute_distance_matrix
 from .pick_n_representative import pick_n_representatives_simple
+from .approach3_markov_pretrain import train_and_save_hmms_for_all_flies
 
 __all__ = [
     'approach1_multi_hot_distance',
@@ -15,5 +16,6 @@ __all__ = [
     'approach4_scores_distance',
     'approach5_simple_euclidean_distance',
     'compute_distance_matrix',
-    'pick_n_representatives_simple'
+    'pick_n_representatives_simple',
+    'train_and_save_hmms_for_all_flies'
 ]
